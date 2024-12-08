@@ -1,0 +1,111 @@
+/* General Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f8fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #3a6351, #81c784);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 5px solid #2a9d8f;
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 20px;
+    background: #e8f5e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hero img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Steps Section */
+.steps {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.steps ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.steps ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-left: 4px solid #3a6351;
+}
+
+/* Call to Action */
+.call-to-action {
+    text-align: center;
+    padding: 30px 20px;
+    background: #3a6351;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.call-to-action button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #2a9d8f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.call-to-action button:hover {
+    background: #228b62;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #264653;
+    color: #fff;
+    margin-top: 20px;
+}
